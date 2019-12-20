@@ -4,3 +4,7 @@ var express = require('express'),
 
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
+
+
+
+module.exports = router;
